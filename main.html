@@ -1,0 +1,84 @@
+<!--Author: Sandesh Basnet
+    Github: @Sandesh-Basnet
+    TryHackMe: @Kastra-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css"><!--CSS File link-->
+
+    <!--Icons Stylesheet Links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css">
+</head>
+<body>
+    <header id ="header">
+        <div class="app-name"><!--App Name Container-->
+            <h1 class="app-class"><!--App Name-->
+                Weather
+            </h1>
+        </div>
+    </header>
+    <main id="main-content"><!--Main Content-->
+        <div class="layout"><!--Layout Container-->
+        <div class="left-side"><!--Left Side Container-->
+        <section class="main-weather"><!--Main Weather Section-->
+            <div class="temperature"><!--Temperature Container-->
+                <h2>16°</h2>
+            </div>
+            <div>
+                <span class="location" id="location"><!--Location-->
+                    London
+                </span>
+                <div class="time-day-date">
+                <span class="time" id="current_time">06:09</span><!--Used Span because Time Day and Date need to be in same block-->
+                <span class="day" id="day">Monday</span>
+                <span class="date" id="date">1 Dec '25</span>
+                <span class="weather-condition-icon" id="weather-condition-icon">
+                    <i class="wi wi-day-cloudy"></i><!--Icon used from linked font awesome css-->
+                </span>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="right-side"><!--Right Side Container-->
+        <section class="search-bar"><!--Search Bar Section-->
+            <div class="search-container"><!--Search Container-->
+            <form id="weatherForm"><!--Form for Search-->
+            <input type="text" placeholder="Search Location" id="search_location"><!--Search Input Field-->
+            <button class="search-btn" id="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button><!--Icon used from linked font awesome css-->
+            </form>
+            </div>
+        </section>
+        <section class="additional_info"><!--Additional Info Section-->
+            <div class="weather-condition"><!--Weather Condition Container-->
+                <h3 id ="weather-conditon-short">THUNDERSTORM WITH LIGHT DRIZZLE</h3>
+                <div class="weather-row">
+                    <div class="label"> Temp max</div><!--Section for Maximum Temperature-->
+                    <div class="value" id="temp_max_value">19°C<i class="fa-solid fa-thermometer-quarter"></i></div>
+                </div>
+                <div class="weather-row">
+                    <div class="label"> Temp min</div><!--Section for Minimum Temperature-->
+                    <div class="value" id="temp_min_value">15°C<i class="fa-solid fa-thermometer-quarter"></i></div>
+                </div>
+                <div class="weather-row">
+                    <div class="label"> Humidity</div><!--Section for Humidity-->
+                    <div class="value" id="humidity_value">58%<i class="fa-solid fa-droplet"></i></div>
+                </div>
+                <div class="weather-row">
+                    <div class="label"> Wind</div><!--Section for Wind Speed-->
+                    <div class="value" id="wind_speed_value">5 km/h<i class="fa-solid fa-wind"></i></div>
+                </div>
+            </div><!--Weather Condition Container End-->
+        </section><!--Additional Info Section End-->
+        </div><!--Right Side Container End-->
+        </div><!--Layout Container End-->
+    </main>
+    <footer id="footer"><!--Footer-->
+        <p class="foot">© 2025 Weather App. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script><!--JavaScript File link-->
+</body>
+</html>

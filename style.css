@@ -1,0 +1,165 @@
+/*Author: Sandesh Basnet
+  Github: @Sandesh-Basnet
+  TryHackMe: Kastra*/
+body{/*Body Styling*/
+    background-image: url(https://raw.githubusercontent.com/Sandesh-Basnet/Weather_APP/refs/heads/main/snow_1.png); /*Background Image from own github repo*/
+    background-repeat: no-repeat;/*No Repeat*/
+    background-size: cover;/*Cover the whole screen*/
+    align-content: center;/*Center Align*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;/*Font Family*/
+}
+#header{/*Header Styling*/
+    color: white;
+    padding-right: 15px;
+    padding-left: 55px;
+    text-align: left;
+}
+#main-content{/*Main Content Styling*/
+    color: white;
+}
+.temperature{/*Temperature Styling*/
+    display: inline;/*Display Inline for temperature section*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+}
+.main-weather {/*Main Weather Section Styling*/
+    display: flex;/*Flexbox for Main Weather Section*/
+    align-items: center;/*Align Items Center*/
+    gap: 20px;
+    padding: 40px;
+    margin-top: 30px;
+}
+.main-weather .temperature h2 {/*Temperature Heading Styling*/
+    font-size: 95px;
+    font-weight: 500;
+}
+.main-weather span.location {/*Location Styling*/
+    font-size: 40px;
+    font-weight: 400;
+}
+.main-weather .time {/*Time Styling*/
+    font-size: 20px;
+    opacity: 0.9;/*Slightly Transparent*/
+}
+.main-weather .day, .main-weather .date {
+    font-size: 18px;
+    opacity: 0.9;
+}
+.weather-condition-icon {
+    margin-top: 10px;/*Margin Top for Weather Icon*/
+}
+.weather-condition-icon i {
+    font-size: 45px;
+}
+.main-weather .date {
+    display: inline;/*Display Inline for Date*/
+}
+.weather-condition-icon{
+    margin-left: 25px;
+}
+.layout {/*Layout Container Styling */
+    display: flex;                  
+    justify-content: space-between; /*Space Between Left and Right Side*/
+    align-items: flex-start;
+    padding: 40px;
+}
+.right-side {/*Right Side Container Styling*/
+    width: 350px;                      
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.25);   
+    backdrop-filter: blur(10px);/*Blur Effect*/
+    border-radius: 15px;
+}
+#footer{/*Footer Styling*/
+    color: white;
+    text-align: right;
+}
+.left-side {/*Left Side Container Styling*/
+    flex: 1;                          
+    margin-right: 20px;
+    margin-top: 300px;
+}
+.right-side{/*Right Side Container Styling*/
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.25);
+}
+.search-bar{/*Search Bar Styling*/
+    display: flex;/*Flexbox for Search Bar*/
+    align-items: center;/*Align Items Center*/
+    margin-bottom: 25px;
+}
+.search-bar input{/*Search Bar Input Styling*/
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 20px;/*Rounded Corners*/
+    border: none;/*No Border*/
+    outline: none;/*No Outline*/
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff
+}
+.search-bar input::placeholder{/*Placeholder Styling*/
+    color: rgba(255, 255, 255, 0.65);
+}
+.search-bar i{
+    margin-left: -30px;/*Positioning Icon inside Input*/
+    cursor: pointer;/*Pointer Cursor on Icon*/
+    opacity: 0.7;
+}
+.additional-info{/*Additional Info Section Styling*/
+     margin: 5px 0 20px;
+    font-size: 0.9rem;/*Font Size*/
+    opacity: 0.7;
+}
+.weather-condition{/*Weather Condition Container Styling*/
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;/*Letter Spacing in weather- condition*/
+    margin-bottom: 25px;
+}
+.weather-row {/*Weather Row Styling*/
+    display: flex;/*Flexbox for Weather Row*/
+    justify-content: space-between;/*Space Between Label and Value*/
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+}
+.weather-row .label {/*Label Styling*/
+    opacity: 0.8;
+}
+.weather-row .value {/*Value Styling*/
+    display: flex;
+    align-items: center;
+    gap: 6px;/*Gap between value and icon*/
+    opacity: 0.95;
+}
+.weather-row i {/*Icons in Weather Row Styling*/
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+.search-container {/*Search Container Styling*/
+    position: relative;/*Relative Positioning for Search Button*/
+    width: 100%;/*Full Width*/
+}
+.search-btn {/*Search Button Styling*/
+    position: absolute;/*Absolute Positioning*/
+    right: 12px;
+    top: 50%;/*Center Vertically*/
+    transform: translateY(-50%);/*Center Vertically*/
+    background: none;/*No Background*/
+    border: none;/*No Border*/
+    padding: 0;/*No Padding*/
+    cursor: pointer;/*Pointer Cursor*/
+}
+.search-btn i {/*Search Button Icon Styling*/
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+.search-container input {/*Search Container Input Styling*/
+    padding-right: 0px !important;/*Remove Right Padding to accommodate Search Button, Important gives the highest priority*/
+    width: 95%;
+}
+.app-class:hover, .temperature:hover, .location:hover, .time:hover, .date:hover, .weather-condition:hover, .weather-row .value:hover , .weather-row .label:hover , .day:hover , .weather-condition-icon:hover, .foot:hover {/*Hover Effects for various elements*/
+    color: rgba(255, 255, 255, 0.85);/*Slightly Brighter on Hover*/
+    cursor: pointer;/*Pointer Cursor on Hover*/
+}
