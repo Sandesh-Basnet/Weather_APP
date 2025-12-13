@@ -34,21 +34,7 @@ form.addEventListener("submit", (e) => {// Event Listener for Form Submission
 
 
 
-// fetchWeatherData("London");
-async function fetchWeatherData(city){
-    try{
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`);
 
-        if(!response.ok){
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        const data = await response.json();
-        console.log(data);
-    }
-    catch(error){
-        console.error(error);
-    }
-}
 
 
 
