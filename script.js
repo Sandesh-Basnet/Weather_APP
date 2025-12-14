@@ -13,9 +13,9 @@ const temp_max_display = document.getElementById("temp_max_value");// Maximum Te
 const temp_min_display = document.getElementById("temp_min_value");// Minimum Temperature Display Element
 const humidity_display = document.getElementById("humidity_value");// Humidity Display Element
 const wind_display = document.getElementById("wind_speed_value");// Wind Speed Display Element
+const default_city = "East Riding"//default city according to city sheet sent in MST
 
-const default_city = "East Riding"
-fetchWeatherData(default_city)
+fetchWeatherData(default_city)//calling function to fetch default city
 
 //Event listerner for form submission working mechanism:First when the sumbit button is pressed
 //or clicked then the event listener captures that event and triggers the associated function.
