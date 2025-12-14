@@ -1,4 +1,5 @@
 const api_key = "1a988c5549b766ca3fdc02ac928f78cd";// OpenWeatherMap API Key
+const api_url = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";//API URL 
 const form = document.getElementById("weatherForm");// Form Element
 const Input_city = document.getElementById("search_location");// Input Field Element
 const search_btn = document.getElementById("search-btn");// Search Button Element
@@ -12,6 +13,9 @@ const temp_max_display = document.getElementById("temp_max_value");// Maximum Te
 const temp_min_display = document.getElementById("temp_min_value");// Minimum Temperature Display Element
 const humidity_display = document.getElementById("humidity_value");// Humidity Display Element
 const wind_display = document.getElementById("wind_speed_value");// Wind Speed Display Element
+
+const default_city = "East Riding"
+fetchWeatherData(default_city)
 
 //Event listerner for form submission working mechanism:First when the sumbit button is pressed
 //or clicked then the event listener captures that event and triggers the associated function.
@@ -29,6 +33,14 @@ form.addEventListener("submit", (e) => {// Event Listener for Form Submission
   console.log("Searching weather for:", city); // for testing
   fetchWeatherData(city);// Call function to fetch weather data
 });
+
+// asyncronous function to fetch weather data
+async function fetchWeatherData(city){
+  const response = await fetch(api_url+city+`&appid=${api_key}`);//fetching the data from open weather api
+  const data = await response.json();//storing response from api in data in the form of javascript object (json)
+  console.log(data)//for testing
+}
+
 
 
 
