@@ -39,8 +39,10 @@ async function fetchWeatherData(city){
   const response = await fetch(api_url+city+`&appid=${api_key}`);//fetching the data from open weather api
   const data = await response.json();//storing response from api in data in the form of javascript object (json)
   console.log(data)//for testing
+  if(data.cod =="404"){
+    location_display.textContent = "Invalid City";
+  }
 }
-
 
 
 
