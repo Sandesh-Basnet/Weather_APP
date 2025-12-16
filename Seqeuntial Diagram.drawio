@@ -218,6 +218,9 @@
         <mxCell id="8W71MrPwty0jkk1zvk4u-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Display &quot;Invalid City&quot;" vertex="1">
           <mxGeometry height="30" width="150" x="145" y="290" as="geometry" />
         </mxCell>
+        <mxCell id="6MUgtO8kwyqL3_kkHvNv-1" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
