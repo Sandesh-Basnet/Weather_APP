@@ -1,3 +1,6 @@
+//Author: Sandesh Basnet
+//Github: @Sandesh-Basnet
+//TryHackMe: @Kastra
 const api_key = "667d22c72d4ce8cfa3b87c113bb900a6";// OpenWeatherMap API Key
 const api_url = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";//API URL 
 const form = document.getElementById("weatherForm");// Form Element
