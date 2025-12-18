@@ -4,37 +4,58 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sqfu5Zzls6ajRMP3fg57-20" edge="1" parent="1" source="sqfu5Zzls6ajRMP3fg57-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;" target="sqfu5Zzls6ajRMP3fg57-6" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="360" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="sqfu5Zzls6ajRMP3fg57-4" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="540" width="540" x="-350" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="sqfu5Zzls6ajRMP3fg57-4" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Client Device" vertex="1">
-          <mxGeometry height="540" width="540" x="-640" y="90" as="geometry" />
+        <mxCell id="6SxX9ZilLmtdaRW3BVOF-5" edge="1" parent="1" source="sqfu5Zzls6ajRMP3fg57-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sqfu5Zzls6ajRMP3fg57-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sqfu5Zzls6ajRMP3fg57-6" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Open Weather API Server(External API)" vertex="1">
-          <mxGeometry height="540" width="410" x="270" y="90" as="geometry" />
+          <mxGeometry height="540" width="410" x="560" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="sqfu5Zzls6ajRMP3fg57-8" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Browser" vertex="1">
-          <mxGeometry height="440" width="440" x="-595" y="140" as="geometry" />
+        <mxCell id="sqfu5Zzls6ajRMP3fg57-8" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="440" width="440" x="-305" y="230" as="geometry" />
         </mxCell>
         <mxCell id="sqfu5Zzls6ajRMP3fg57-10" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;HTML&lt;/b&gt;" vertex="1">
-          <mxGeometry height="95" width="280" x="-515" y="180" as="geometry" />
+          <mxGeometry height="95" width="280" x="-225" y="270" as="geometry" />
         </mxCell>
         <mxCell id="sqfu5Zzls6ajRMP3fg57-11" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Javascript&lt;/b&gt;" vertex="1">
-          <mxGeometry height="80" width="285" x="-512.5" y="430" as="geometry" />
+          <mxGeometry height="80" width="285" x="-222.5" y="520" as="geometry" />
         </mxCell>
         <mxCell id="sqfu5Zzls6ajRMP3fg57-12" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CSS&lt;/b&gt;" vertex="1">
-          <mxGeometry height="80" width="280" x="-515" y="310" as="geometry" />
+          <mxGeometry height="80" width="280" x="-225" y="400" as="geometry" />
         </mxCell>
         <mxCell id="sqfu5Zzls6ajRMP3fg57-14" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="&lt;div&gt;Open Weather API Interface&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="430" width="365" x="285" y="150" as="geometry" />
+          <mxGeometry height="430" width="365" x="575" y="240" as="geometry" />
         </mxCell>
         <mxCell id="sqfu5Zzls6ajRMP3fg57-15" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Weather Data&lt;/b&gt;" vertex="1">
-          <mxGeometry height="80" width="285" x="332.5" y="275" as="geometry" />
+          <mxGeometry height="80" width="285" x="622.5" y="365" as="geometry" />
         </mxCell>
-        <mxCell id="sqfu5Zzls6ajRMP3fg57-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Request / Response" vertex="1">
-          <mxGeometry height="75" width="200" x="-10" y="312.5" as="geometry" />
+        <mxCell id="6SxX9ZilLmtdaRW3BVOF-2" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="User" vertex="1">
+          <mxGeometry height="260" width="340" x="-800" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6SxX9ZilLmtdaRW3BVOF-3" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Browser" vertex="1">
+          <mxGeometry height="200" width="300" x="-790" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6SxX9ZilLmtdaRW3BVOF-4" edge="1" parent="1" source="sqfu5Zzls6ajRMP3fg57-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" target="sqfu5Zzls6ajRMP3fg57-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="415" />
+              <mxPoint x="280" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6SxX9ZilLmtdaRW3BVOF-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Request" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="6SxX9ZilLmtdaRW3BVOF-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Response" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="6SxX9ZilLmtdaRW3BVOF-8" edge="1" parent="1" source="6SxX9ZilLmtdaRW3BVOF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.57;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" target="sqfu5Zzls6ajRMP3fg57-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SxX9ZilLmtdaRW3BVOF-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Network" vertex="1">
+          <mxGeometry height="30" width="60" x="-470" y="335" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
