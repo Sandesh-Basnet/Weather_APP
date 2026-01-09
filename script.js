@@ -1,8 +1,7 @@
 //Author: Sandesh Basnet
 //Github: @Sandesh-Basnet
 //TryHackMe: @Kastra
-const api_key = "667d22c72d4ce8cfa3b87c113bb900a6";// OpenWeatherMap API Key
-const api_url = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";//API URL 
+const api_url = "http://localhost/weather.php/?city=";//API URL 
 const form = document.getElementById("weatherForm");// Form Element
 const Input_city = document.getElementById("search_location");// Input Field Element
 const search_btn = document.getElementById("search-btn");// Search Button Element
@@ -55,18 +54,19 @@ form.addEventListener("submit", (e) => {// Event Listener for Form Submission
 });
 // asyncronous function to fetch weather data
 async function fetchWeatherData(city){
-  const response = await fetch(api_url+city+`&appid=${api_key}`);//fetching the data from open weather api
+  const response = await fetch(api_url+city);//fetching the data from open weather api
   const data = await response.json();//storing response from api in data in the form of javascript object (json)
-  if(data.cod =="404"){//Validating data
+  if(data.error){//Validating data
     location_display.textContent = "Invalid City";
     return;
   }
+  console.log(data);//for testing purpose
   Update_UI_using_data(data)//updating the UI with the data from API
 }
 function Update_UI_using_data(data){//Function to update Data
-  location_display.textContent = data.name;//Update City Name
-  actual_temp_display.textContent = Math.round(data.main.temp)+"°";//Update Temperature and math round remove the number after decimal
-  const utcTime = (data.dt + data.timezone)*1000;//data.dt give current time in UNIX UTC seconds from api| data.timezone is city's timezone offset in seconds from UTC. *1000 -> converts seconds into milliseconds because Javascript date needs milliseconds.
+  location_display.textContent = data.city_name;//Update City Name
+  actual_temp_display.textContent = Math.round(data.temperature)+"°";//Update Temperature and math round remove the number after decimal
+  const utcTime = (Number(data.dt) + Number(data.timezone))*1000;//data.dt give current time in UNIX UTC seconds from api| data.timezone is city's timezone offset in seconds from UTC. *1000 -> converts seconds into milliseconds because Javascript date needs milliseconds.
   const Localtime = new Date(utcTime);//creates a JavaScript Date Object for local time of the city.
   const hours = Localtime.getUTCHours().toString().padStart(2,"0");//Extract Hours from the Date Object
   const minutes = Localtime.getUTCMinutes().toString().padStart(2,"0");// Extract Minutes from the Date Object.| padStart adds padding like 09:02 if not used time will be single digit number 9:2
@@ -76,12 +76,12 @@ function Update_UI_using_data(data){//Function to update Data
   const monthName = months[Localtime.getUTCMonth()];//getUTCMonth returns the index of the Month and is reflected from the month array
   const yearShort = Localtime.getUTCFullYear().toString().slice(-2);//getUTCFullYear gets the year and toSting converts into string and slice give only two last digit
   date_display.textContent = `${dayNum} ${monthName} '${yearShort}`;//display date 
-  const mainWeather = data.weather[0].main;//Gets the main weather condition and stores in mainWeather
+  const mainWeather = data.weather_main;//Gets the main weather condition and stores in mainWeather
     const iconClass = weatherIconMapping[mainWeather] || "wi-day-sunny"; //maps weather condition to weather-icon-class and "wi-day-sunny" executes if it fails and is called a fallback
   weather_icon_display.innerHTML = `<i class="wi ${iconClass}"></i>`;//Updates Icon class
-  weather_condition_short_display.textContent = data.weather[0].description.toUpperCase();
-  temp_max_display.textContent = Math.round(data.main.temp_max)+"°";//Update Maximum Temperature as well as rounding it up 
-  temp_min_display.textContent = Math.round(data.main.temp_min)+"°"; //Update Minimum Temperature as well as rounding it up
-  humidity_display.textContent = data.main.humidity+"%";// Update humidity
-  wind_display.textContent = Math.round(data.wind.speed)+" km/h";//Update windspind by rounding it up
+  weather_condition_short_display.textContent = data.weather_description.toUpperCase();
+  temp_max_display.textContent = Math.round(data.max_temp)+"°";//Update Maximum Temperature as well as rounding it up 
+  temp_min_display.textContent = Math.round(data.min_temp)+"°"; //Update Minimum Temperature as well as rounding it up
+  humidity_display.textContent = data.humidity+"%";// Update humidity
+  wind_display.textContent = Math.round(data.wind_speed)+" km/h";//Update windspind by rounding it up
 }
