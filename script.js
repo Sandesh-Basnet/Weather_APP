@@ -16,7 +16,7 @@ const temp_min_display = document.getElementById("temp_min_value");// Minimum Te
 const humidity_display = document.getElementById("humidity_value");// Humidity Display Element
 const wind_display = document.getElementById("wind_speed_value");// Wind Speed Display Element
 const actual_temp_display = document.getElementById("actual_temperature")//Actual Temperature Display Element
-const default_city = "East Riding of Yorkshire"//default city according to city sheet sent in MST
+const default_city = "East Yorkshire"//default city according to city sheet sent in MST
 const weatherIconMapping = {//array for weather type and their icon class in font awesome to change icon according to the weather
     "Thunderstorm": "wi-thunderstorm",
     "Drizzle": "wi-sprinkle",
@@ -54,9 +54,9 @@ form.addEventListener("submit", (e) => {// Event Listener for Form Submission
 });
 // asyncronous function to fetch weather data
 async function fetchWeatherData(city){
-  const response = await fetch(api_url+city);//fetching the data from open weather api
+  const response = await fetch(api_url+encodeURIComponent(city));//fetching the data from open weather api
   const data = await response.json();//storing response from api in data in the form of javascript object (json)
-  if(data.error){//Validating data
+  if(!data || data.error){//Validating data
     location_display.textContent = "Invalid City";
     return;
   }
