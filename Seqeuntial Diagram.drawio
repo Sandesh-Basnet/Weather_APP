@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.1">
   <diagram name="Page-1" id="FT-96poA6IkNPU9XkNhY">
-    <mxGraphModel dx="1293" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="940" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,9 +233,9 @@
           <mxGeometry height="360" width="10" x="45" y="70" as="geometry" />
         </mxCell>
         <mxCell id="LIFMaiLSR9QD8o36H0ip-8" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="&amp;nbsp;alt&amp;nbsp;" vertex="1">
-          <mxGeometry height="130" width="330" x="710" y="110" as="geometry" />
+          <mxGeometry height="150" width="330" x="710" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="LIFMaiLSR9QD8o36H0ip-12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.444;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" target="LIFMaiLSR9QD8o36H0ip-8" value="">
+        <mxCell id="LIFMaiLSR9QD8o36H0ip-12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.444;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.301;entryDx=0;entryDy=0;entryPerimeter=0;" target="LIFMaiLSR9QD8o36H0ip-8" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="154.71" />
@@ -278,15 +278,6 @@
         </mxCell>
         <mxCell id="LIFMaiLSR9QD8o36H0ip-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="store Weather Data in database" vertex="1">
           <mxGeometry height="20" width="150" x="870" y="195" as="geometry" />
-        </mxCell>
-        <mxCell id="LIFMaiLSR9QD8o36H0ip-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="865" y="219.32999999999998" as="sourcePoint" />
-            <mxPoint x="725" y="219.32999999999998" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LIFMaiLSR9QD8o36H0ip-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Weather data (table)" vertex="1">
-          <mxGeometry height="10" width="100" x="750" y="200" as="geometry" />
         </mxCell>
         <mxCell id="LIFMaiLSR9QD8o36H0ip-25" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="&amp;nbsp;alt&amp;nbsp;" vertex="1">
           <mxGeometry height="190" width="330" x="710" y="260" as="geometry" />
@@ -351,6 +342,15 @@
         </mxCell>
         <mxCell id="LIFMaiLSR9QD8o36H0ip-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Weather data (table)" vertex="1">
           <mxGeometry height="10" width="100" x="740" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="LIFMaiLSR9QD8o36H0ip-38" edge="1" parent="1" source="LIFMaiLSR9QD8o36H0ip-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="220" />
+              <mxPoint x="790" y="259" />
+            </Array>
+            <mxPoint x="790" y="259" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
