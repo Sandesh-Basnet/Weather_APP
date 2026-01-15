@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="29.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.1">
   <diagram name="Page-1" id="k1MW7E74PpVfYrfTWbFV">
-    <mxGraphModel dx="1645" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+    <mxGraphModel dx="1591" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,26 +52,25 @@
             <mxPoint x="120" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s5pIzRwouAZ4tZwRZK1m-46" edge="1" parent="1" source="s5pIzRwouAZ4tZwRZK1m-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="s5pIzRwouAZ4tZwRZK1m-26">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-37" edge="1" parent="1" source="s5pIzRwouAZ4tZwRZK1m-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="s5pIzRwouAZ4tZwRZK1m-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="420" />
+              <mxPoint x="790" y="1015" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="s5pIzRwouAZ4tZwRZK1m-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Display &quot;Invalid City&quot; Message" vertex="1">
           <mxGeometry height="40" width="120" x="260" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="s5pIzRwouAZ4tZwRZK1m-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Fetch Weather Data from OpenWeather API" vertex="1">
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-4" edge="1" parent="1" source="s5pIzRwouAZ4tZwRZK1m-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9QRwLnqWyhm-g-Jidhy-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5pIzRwouAZ4tZwRZK1m-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Request for weather data to PHP API" vertex="1">
           <mxGeometry height="40" width="120" x="60" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="s5pIzRwouAZ4tZwRZK1m-44" edge="1" parent="1" source="s5pIzRwouAZ4tZwRZK1m-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="s5pIzRwouAZ4tZwRZK1m-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s5pIzRwouAZ4tZwRZK1m-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Update UI with Weather Data" vertex="1">
-          <mxGeometry height="40" width="120" x="65" y="590" as="geometry" />
-        </mxCell>
         <mxCell id="s5pIzRwouAZ4tZwRZK1m-26" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="110" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="s5pIzRwouAZ4tZwRZK1m-42" edge="1" parent="1" source="s5pIzRwouAZ4tZwRZK1m-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="s5pIzRwouAZ4tZwRZK1m-25">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="30" width="30" x="335" y="1000" as="geometry" />
         </mxCell>
         <mxCell id="s5pIzRwouAZ4tZwRZK1m-47" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="110" y="10" as="geometry" />
@@ -80,6 +79,78 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="125" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-7" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9QRwLnqWyhm-g-Jidhy-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-8" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9QRwLnqWyhm-g-Jidhy-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Is data in mysql database?" vertex="1">
+          <mxGeometry height="90" width="120" x="60" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-31" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9QRwLnqWyhm-g-Jidhy-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Request for weather data to OpenWeather API" vertex="1">
+          <mxGeometry height="45" width="140" x="280" y="612.5" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-17" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9QRwLnqWyhm-g-Jidhy-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Fetch weather data from mysql database" vertex="1">
+          <mxGeometry height="40" width="120" x="60" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-19" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9QRwLnqWyhm-g-Jidhy-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-24" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9QRwLnqWyhm-g-Jidhy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Is the created_at under 1 hour?" vertex="1">
+          <mxGeometry height="90" width="120" x="60" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-35" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s5pIzRwouAZ4tZwRZK1m-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Display weather information to the user&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="140" x="50" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-27" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j9QRwLnqWyhm-g-Jidhy-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Request for new weather data to OpenWeather API" vertex="1">
+          <mxGeometry height="45" width="140" x="320" y="882.5" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-34" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="j9QRwLnqWyhm-g-Jidhy-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="830" />
+              <mxPoint x="40" y="830" />
+              <mxPoint x="40" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Store new weather data in mysql database" vertex="1">
+          <mxGeometry height="45" width="140" x="540" y="882.5" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-32" edge="1" parent="1" source="j9QRwLnqWyhm-g-Jidhy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="j9QRwLnqWyhm-g-Jidhy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9QRwLnqWyhm-g-Jidhy-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Store weather data in mysql database" vertex="1">
+          <mxGeometry height="45" width="140" x="280" y="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
