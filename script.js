@@ -1,6 +1,5 @@
 //Author: Sandesh Basnet
 //Github: @Sandesh-Basnet
-//TryHackMe: @Kastra
 const api_url = "http://localhost/weather.php/?city=";//API URL 
 const form = document.getElementById("weatherForm");// Form Element
 const Input_city = document.getElementById("search_location");// Input Field Element
