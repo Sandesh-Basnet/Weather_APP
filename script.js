@@ -54,8 +54,17 @@ form.addEventListener("submit", (e) => {// Event Listener for Form Submission
 });
 // asyncronous function to fetch weather data
 async function fetchWeatherData(city){
-  const response = await fetch(api_url+encodeURIComponent(city));//fetching the data from open weather api
-  const data = await response.json();//storing response from api in data in the form of javascript object (json)
+  let data;
+  if (navigator.onLine){//fetching data from api when online
+    const response = await fetch(api_url+encodeURIComponent(city));//fetching the data from open weather api
+    data = await response.json();//storing response from api in data in the form of javascript object (json)
+    //Save data to localStorage
+    localStorage.setItem(encodeURIComponent(city), JSON.stringify(data));//storing data in local storage for offline use
+  }
+  else{
+    //Offline: Retreive data from localStorage
+    data = JSON.parse(localStorage.getItem(encodeURIComponent(city)));//getting data from local storage and parsing it to javascript object
+  }
   if(!data || data.error){//Validating data
     location_display.textContent = "Invalid City";
     return;
@@ -77,7 +86,7 @@ function Update_UI_using_data(data){//Function to update Data
   const yearShort = Localtime.getUTCFullYear().toString().slice(-2);//getUTCFullYear gets the year and toSting converts into string and slice give only two last digit
   date_display.textContent = `${dayNum} ${monthName} '${yearShort}`;//display date 
   const mainWeather = data.weather_main;//Gets the main weather condition and stores in mainWeather
-    const iconClass = weatherIconMapping[mainWeather] || "wi-day-sunny"; //maps weather condition to weather-icon-class and "wi-day-sunny" executes if it fails and is called a fallback
+  const iconClass = weatherIconMapping[mainWeather] || "wi-day-sunny"; //maps weather condition to weather-icon-class and "wi-day-sunny" executes if it fails and is called a fallback
   weather_icon_display.innerHTML = `<i class="wi ${iconClass}"></i>`;//Updates Icon class
   weather_condition_short_display.textContent = data.weather_description.toUpperCase();
   temp_max_display.textContent = Math.round(data.max_temp)+"°";//Update Maximum Temperature as well as rounding it up 
