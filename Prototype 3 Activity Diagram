@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.4">
   <diagram name="Page-1" id="8oyt8AZE_MlgXJImz-dS">
-    <mxGraphModel dx="827" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1216" dy="1764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="t5xkIPmmB9UBL61XzbXu-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="User" vertex="1">
-          <mxGeometry height="720" width="270" as="geometry" />
+        <mxCell id="t5xkIPmmB9UBL61XzbXu-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="User" vertex="1">
+          <mxGeometry height="720" width="270" y="-10" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-12" parent="t5xkIPmmB9UBL61XzbXu-1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="10" y="35" as="geometry" />
+          <mxGeometry height="30" width="30" x="10" y="45" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-13" edge="1" parent="t5xkIPmmB9UBL61XzbXu-1" source="t5xkIPmmB9UBL61XzbXu-12" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="t5xkIPmmB9UBL61XzbXu-14" value="">
           <mxGeometry relative="1" as="geometry">
@@ -16,7 +16,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-14" parent="t5xkIPmmB9UBL61XzbXu-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Load Weather APP" vertex="1">
-          <mxGeometry height="40" width="120" x="100" y="30" as="geometry" />
+          <mxGeometry height="40" width="120" x="100" y="50" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-88" parent="t5xkIPmmB9UBL61XzbXu-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="User enter the city to get weather information" vertex="1">
           <mxGeometry height="50" width="140" x="90" y="400" as="geometry" />
@@ -44,11 +44,19 @@
         <mxCell id="t5xkIPmmB9UBL61XzbXu-121" parent="t5xkIPmmB9UBL61XzbXu-1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="90" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="t5xkIPmmB9UBL61XzbXu-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="HTML &amp;amp; CSS" vertex="1">
-          <mxGeometry height="720" width="270" x="270" as="geometry" />
+        <mxCell id="uSCh-FIVMv5jWQWOpcGy-1" parent="t5xkIPmmB9UBL61XzbXu-1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Name: Sandesh Basnet" vertex="1">
+          <mxGeometry height="26" width="80" x="90" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uSCh-FIVMv5jWQWOpcGy-2" parent="t5xkIPmmB9UBL61XzbXu-1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="University ID: 2603784" vertex="1">
+          <mxGeometry height="26" width="80" x="90" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="t5xkIPmmB9UBL61XzbXu-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;font&gt;Sandesh_Banset_2603784_HTML.html &amp;amp;Sandesh_Banset_2603784_CSS.css&lt;/font&gt;" vertex="1">
+          <mxGeometry height="730" width="270" x="270" y="-10" as="geometry">
+            <mxRectangle height="30" width="110" x="270" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-16" parent="t5xkIPmmB9UBL61XzbXu-6" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Show Weather APP main page" vertex="1">
-          <mxGeometry height="40" width="120" x="20" y="30" as="geometry" />
+          <mxGeometry height="40" width="120" x="20" y="50" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-37" parent="t5xkIPmmB9UBL61XzbXu-6" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Display weather data&amp;nbsp;" vertex="1">
           <mxGeometry height="40" width="120" x="35" y="196" as="geometry" />
@@ -96,17 +104,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t5xkIPmmB9UBL61XzbXu-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="JavaScript" vertex="1">
-          <mxGeometry height="720" width="270" x="540" as="geometry" />
+        <mxCell id="t5xkIPmmB9UBL61XzbXu-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Sandesh_Banset_2603784_JavaScript.js" vertex="1">
+          <mxGeometry height="720" width="270" x="540" y="-10" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-23" edge="1" parent="t5xkIPmmB9UBL61XzbXu-7" source="t5xkIPmmB9UBL61XzbXu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t5xkIPmmB9UBL61XzbXu-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-17" parent="t5xkIPmmB9UBL61XzbXu-7" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="fetch default city weather data" vertex="1">
-          <mxGeometry height="40" width="120" x="20" y="30" as="geometry" />
+          <mxGeometry height="40" width="120" x="20" y="40" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-19" parent="t5xkIPmmB9UBL61XzbXu-7" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="is browser online?" vertex="1">
-          <mxGeometry height="60" width="80" x="40" y="90" as="geometry" />
+          <mxGeometry height="60" width="80" x="40" y="100" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-26" parent="t5xkIPmmB9UBL61XzbXu-7" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Yes" vertex="1">
           <mxGeometry height="26" width="80" x="90" y="100" as="geometry" />
@@ -141,11 +149,11 @@
         <mxCell id="t5xkIPmmB9UBL61XzbXu-104" parent="t5xkIPmmB9UBL61XzbXu-7" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Yes" vertex="1">
           <mxGeometry height="26" width="80" x="110" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="t5xkIPmmB9UBL61XzbXu-8" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="PHP" vertex="1">
-          <mxGeometry height="720" width="270" x="810" as="geometry" />
+        <mxCell id="t5xkIPmmB9UBL61XzbXu-8" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Sandesh_Banset_2603784_PHP.php" vertex="1">
+          <mxGeometry height="720" width="270" x="810" y="-10" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-24" parent="t5xkIPmmB9UBL61XzbXu-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="request for data of default city" vertex="1">
-          <mxGeometry height="40" width="120" x="20" y="40" as="geometry" />
+          <mxGeometry height="40" width="120" x="20" y="50" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-48" parent="t5xkIPmmB9UBL61XzbXu-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="retrieve data from&amp;nbsp;&lt;div&gt;MySQL Database&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="30" y="350" as="geometry" />
@@ -156,14 +164,14 @@
         <mxCell id="t5xkIPmmB9UBL61XzbXu-102" parent="t5xkIPmmB9UBL61XzbXu-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="request for data of city" vertex="1">
           <mxGeometry height="40" width="120" x="30" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="t5xkIPmmB9UBL61XzbXu-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="MySQL Database" vertex="1">
-          <mxGeometry height="720" width="270" x="1080" as="geometry" />
+        <mxCell id="t5xkIPmmB9UBL61XzbXu-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="MySQL Database" vertex="1">
+          <mxGeometry height="720" width="270" x="1080" y="-10" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-50" edge="1" parent="t5xkIPmmB9UBL61XzbXu-9" source="t5xkIPmmB9UBL61XzbXu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5xkIPmmB9UBL61XzbXu-49" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-45" parent="t5xkIPmmB9UBL61XzbXu-9" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="is data available?" vertex="1">
-          <mxGeometry height="60" width="80" x="110" y="30" as="geometry" />
+          <mxGeometry height="60" width="80" x="110" y="46" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-49" parent="t5xkIPmmB9UBL61XzbXu-9" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" value="is created_time is under 1 hour?" vertex="1">
           <mxGeometry height="80" width="80" x="140" y="120" as="geometry" />
@@ -178,7 +186,7 @@
           <mxGeometry height="40" width="120" x="90" y="350" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-110" parent="t5xkIPmmB9UBL61XzbXu-9" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="No" vertex="1">
-          <mxGeometry height="26" width="80" x="160" y="40" as="geometry" />
+          <mxGeometry height="26" width="80" x="155" y="50" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-111" parent="t5xkIPmmB9UBL61XzbXu-9" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="No" vertex="1">
           <mxGeometry height="26" width="80" x="190" y="140" as="geometry" />
@@ -187,10 +195,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-112" parent="t5xkIPmmB9UBL61XzbXu-9" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" value="" vertex="1">
-          <mxGeometry height="40" width="50" x="10" y="40" as="geometry" />
+          <mxGeometry height="40" width="50" x="10" y="66" as="geometry" />
         </mxCell>
-        <mxCell id="t5xkIPmmB9UBL61XzbXu-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Browser Local Storage" vertex="1">
-          <mxGeometry height="720" width="300" x="1350" as="geometry" />
+        <mxCell id="t5xkIPmmB9UBL61XzbXu-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Browser Local Storage" vertex="1">
+          <mxGeometry height="720" width="300" x="1350" y="-10" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-30" parent="t5xkIPmmB9UBL61XzbXu-10" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="is data available?" vertex="1">
           <mxGeometry height="60" width="80" x="180" y="50" as="geometry" />
@@ -214,8 +222,8 @@
         <mxCell id="t5xkIPmmB9UBL61XzbXu-65" parent="t5xkIPmmB9UBL61XzbXu-10" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="store in Local Storage" vertex="1">
           <mxGeometry height="40" width="120" x="80" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="t5xkIPmmB9UBL61XzbXu-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="OpenWeather API" vertex="1">
-          <mxGeometry height="720" width="270" x="1650" as="geometry" />
+        <mxCell id="t5xkIPmmB9UBL61XzbXu-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="OpenWeather API" vertex="1">
+          <mxGeometry height="720" width="270" x="1650" y="-10" as="geometry" />
         </mxCell>
         <mxCell id="t5xkIPmmB9UBL61XzbXu-63" edge="1" parent="t5xkIPmmB9UBL61XzbXu-11" source="t5xkIPmmB9UBL61XzbXu-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t5xkIPmmB9UBL61XzbXu-62">
           <mxGeometry relative="1" as="geometry">
@@ -259,7 +267,9 @@
         <mxCell id="t5xkIPmmB9UBL61XzbXu-53" edge="1" parent="1" source="t5xkIPmmB9UBL61XzbXu-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t5xkIPmmB9UBL61XzbXu-48">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1130" y="370" />
+              <mxPoint x="1260" y="300" />
+              <mxPoint x="1130" y="300" />
+              <mxPoint x="1130" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
