@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6">
   <diagram name="Page-1" id="byOmrEtdfS3ZOnesy4NS">
-    <mxGraphModel dx="1880" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2267" dy="2375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-17" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1409" y="1920" as="sourcePoint" />
+            <mxPoint x="1410" y="1580" as="sourcePoint" />
             <mxPoint x="1410.5" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -87,7 +87,7 @@
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-22" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="NjEKlmHV_K6zTKXKUCTG-23" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="270" y="1920" as="sourcePoint" />
+            <mxPoint x="270" y="1580" as="sourcePoint" />
             <mxPoint x="270.5" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -97,23 +97,31 @@
             <mxPoint x="600" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-139" edge="1" parent="1" source="NjEKlmHV_K6zTKXKUCTG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="NjEKlmHV_K6zTKXKUCTG-138">
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-3" edge="1" parent="1" source="NjEKlmHV_K6zTKXKUCTG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="NjEKlmHV_K6zTKXKUCTG-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="1690" />
-              <mxPoint x="220" y="1690" />
+              <mxPoint x="410" y="200" />
+              <mxPoint x="410" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-10" edge="1" parent="1" source="NjEKlmHV_K6zTKXKUCTG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="T9ew3XJRRg8dPTtcBFAk-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="845" />
+              <mxPoint x="210" y="845" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-23" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="1790" width="10" x="265" y="120" as="geometry" />
+          <mxGeometry height="1440" width="10" x="265" y="120" as="geometry" />
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Open Weather App" vertex="1">
           <mxGeometry height="30" width="140" x="90" y="110" as="geometry" />
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-31" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="NjEKlmHV_K6zTKXKUCTG-28" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="604" y="1920" as="sourcePoint" />
+            <mxPoint x="604" y="1580" as="sourcePoint" />
             <mxPoint x="605.5" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -133,7 +141,7 @@
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-36" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="NjEKlmHV_K6zTKXKUCTG-37" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="940" y="1920" as="sourcePoint" />
+            <mxPoint x="940" y="1580" as="sourcePoint" />
             <mxPoint x="940.5" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -158,7 +166,7 @@
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-41" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="NjEKlmHV_K6zTKXKUCTG-40" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1209" y="1920" as="sourcePoint" />
+            <mxPoint x="1209" y="1580" as="sourcePoint" />
             <mxPoint x="1210.5" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -199,6 +207,14 @@
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-42" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="1440" width="10" x="1405" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-5" edge="1" parent="1" source="NjEKlmHV_K6zTKXKUCTG-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NjEKlmHV_K6zTKXKUCTG-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="850" />
+              <mxPoint x="340" y="850" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-56" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" value="alt" vertex="1">
           <mxGeometry height="1380" width="1070" x="580" y="160" as="geometry" />
@@ -347,7 +363,7 @@
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-109" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="NjEKlmHV_K6zTKXKUCTG-110" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1609" y="1920" as="sourcePoint" />
+            <mxPoint x="1610" y="1580" as="sourcePoint" />
             <mxPoint x="1609" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -386,85 +402,49 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-131" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" value="alt" vertex="1">
-          <mxGeometry height="240" width="270" x="35" y="1590" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-132" parent="NjEKlmHV_K6zTKXKUCTG-131" style="text;html=1;" value="[if response is weather data]" vertex="1">
-          <mxGeometry height="20" relative="1" width="100" as="geometry">
-            <mxPoint x="20" y="40" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-133" parent="NjEKlmHV_K6zTKXKUCTG-131" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" value="[if response is error]" vertex="1">
-          <mxGeometry height="10" width="270" y="125" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-138" parent="NjEKlmHV_K6zTKXKUCTG-131" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="20" width="10" x="15" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-140" parent="NjEKlmHV_K6zTKXKUCTG-131" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Display Weather Data" vertex="1">
-          <mxGeometry height="30" width="140" x="55" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-141" parent="NjEKlmHV_K6zTKXKUCTG-131" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="30" width="10" x="15" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-142" edge="1" parent="NjEKlmHV_K6zTKXKUCTG-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="105" y="204.5" />
-              <mxPoint x="105" y="204.5" />
-            </Array>
-            <mxPoint x="230" y="204.5" as="sourcePoint" />
-            <mxPoint x="25" y="204.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-143" parent="NjEKlmHV_K6zTKXKUCTG-131" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Display Error" vertex="1">
-          <mxGeometry height="30" width="140" x="55" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-135" edge="1" parent="1" source="NjEKlmHV_K6zTKXKUCTG-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.43;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;" target="NjEKlmHV_K6zTKXKUCTG-131">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="151" y="850" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-136" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Response" vertex="1">
-          <mxGeometry height="30" width="160" x="300" y="820" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-144" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="NjEKlmHV_K6zTKXKUCTG-145" value="">
+        <mxCell id="NjEKlmHV_K6zTKXKUCTG-144" edge="1" parent="1" source="T9ew3XJRRg8dPTtcBFAk-8" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="54" y="1920" as="sourcePoint" />
-            <mxPoint x="54" y="150" as="targetPoint" />
+            <mxPoint x="54" y="1570" as="sourcePoint" />
+            <mxPoint x="54" y="-140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-146" edge="1" parent="1" source="NjEKlmHV_K6zTKXKUCTG-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="NjEKlmHV_K6zTKXKUCTG-23">
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-1" edge="1" parent="1" source="NjEKlmHV_K6zTKXKUCTG-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="NjEKlmHV_K6zTKXKUCTG-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="1880" />
-              <mxPoint x="170" y="1880" />
+              <mxPoint x="220" y="200" />
+              <mxPoint x="220" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-145" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="20" width="10" x="50" y="1870" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="User Search for weather data&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="170" x="85" y="1850" as="geometry" />
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-148" edge="1" parent="1" source="NjEKlmHV_K6zTKXKUCTG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="NjEKlmHV_K6zTKXKUCTG-28">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="428" y="1880" />
-              <mxPoint x="428" y="747" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NjEKlmHV_K6zTKXKUCTG-149" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Request for weather data of city" vertex="1">
-          <mxGeometry height="30" width="170" x="410" y="710" as="geometry" />
+          <mxGeometry height="20" width="10" x="50" y="190" as="geometry" />
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-150" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Name: Sandesh Basnet" vertex="1">
           <mxGeometry height="26" width="80" x="380" y="330" as="geometry" />
         </mxCell>
         <mxCell id="NjEKlmHV_K6zTKXKUCTG-151" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="University ID: 2603784" vertex="1">
           <mxGeometry height="26" width="80" x="380" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Search for city&#39;s weather data" vertex="1">
+          <mxGeometry height="30" width="140" x="90" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Request Weather Data" vertex="1">
+          <mxGeometry height="30" width="140" x="355" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Return Weather Data" vertex="1">
+          <mxGeometry height="30" width="140" x="350" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="T9ew3XJRRg8dPTtcBFAk-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="54" y="1570" as="sourcePoint" />
+            <mxPoint x="54" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-8" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="50" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ew3XJRRg8dPTtcBFAk-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Display Weather Data" vertex="1">
+          <mxGeometry height="30" width="140" x="90" y="820" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
