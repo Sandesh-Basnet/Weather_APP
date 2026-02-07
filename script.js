@@ -16,7 +16,7 @@ const humidity_display = document.getElementById("humidity_value");// Humidity D
 const wind_display = document.getElementById("wind_speed_value");// Wind Speed Display Element
 const actual_temp_display = document.getElementById("actual_temperature")//Actual Temperature Display Element
 const default_city = "East Yorkshire"//default city according to city sheet sent in MST
-const weatherIconMapping = {//array for weather type and their icon class in font awesome to change icon according to the weather
+const weatherIconMapping = {//object for weather type and their icon class in font awesome to change icon according to the weather
     "Thunderstorm": "wi-thunderstorm",
     "Drizzle": "wi-sprinkle",
     "Rain": "wi-rain",
